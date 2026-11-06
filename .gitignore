@@ -1,0 +1,13 @@
+# System and editor files
+.DS_Store
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# Local only: agent links, working notes, third-party copies, unpublished skills
+.claude/
+notes/
+reference/
+skills/add-results/
+skills/experiment-tracker/

@@ -1,0 +1,16 @@
+8 deletion(s) or replacement(s)
+old line 7: DELETED: 120
+           REPLACED BY: 118
+old line 12: DELETED: hour),
+            REPLACED BY: hour) over ten repetitions of five-fold cross-validation,
+old line 17: DELETED: 120
+            REPLACED BY: 118
+old line 18: DELETED: 3.97
+            REPLACED BY: 4.61
+old line 18: DELETED: 120
+            REPLACED BY: 118
+old line 23: DELETED: \todo[inline]{Add a significance test.}
+old line 24: DELETED: clearly outperforms
+            REPLACED BY: has a lower error than
+old line 24: DELETED: baseline on all stations, which shows that weather features are essential for demand prediction.
+            REPLACED BY: baseline, but the difference is not significant (corrected resampled $t$-test, $p = 0.41$).

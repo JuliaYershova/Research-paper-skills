@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{booktabs}
+\usepackage{todonotes}
+\begin{document}
+\section*{4\quad Results}
+We predict hourly demand at 118 bike-sharing stations with a gradient-boosted
+model and compare it with a seasonal baseline under ten repetitions of
+five-fold cross-validation.
+
+\begin{table}[h]
+\centering
+\caption{Mean absolute error (bikes per hour) over ten repetitions of
+five-fold cross-validation, lower is better.}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Model & MAE & Stations \\
+\midrule
+Seasonal baseline & 4.82 & 118 \\
+Boosted model     & 4.61 & 118 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The boosted model has a lower error than the baseline, but the difference is
+not significant (corrected resampled $t$-test, $p = 0.41$).
+Training takes 14 minutes on a laptop.
+\end{document}

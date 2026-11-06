@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage{booktabs}
+\newcommand{\acc}{0.912}
+\begin{document}
+\author{A. Author \\ Street 12/3, 160 00 Prague}
+\title{Test}
+\maketitle
+We reach 0.873 accuracy (see Table~\ref{tab:a}) and 12.5\% error, on 1{,}024 items.
+Costs range from 0.004--0.010 USD; the p-value is $p < 0.001$ and $10^{-3}$ is small.
+A negative gain of $-0.25$ and $\pm 0.03$ appear in CUB-200-2011 and v0.1.14.
+Width \includegraphics[width=0.5\linewidth]{fig.png} and \hspace{2cm} are not results.
+This sentence has 100\% coverage % and this 0.999 is in a comment
+Electricity is priced at 6.50 CZK per kWh.
+\input{sec/results}
+\begin{lstlisting}
+model = LogisticRegression(max_iter=1000)
+\end{lstlisting}
+\begin{table}
+\begin{tabular}{@{}l>{\raggedright}p{2cm}r@{}}
+\toprule
+Name & Value & N \\
+\midrule
+A & 0.873 & 240 \\
+\multicolumn{2}{c}{B merged} & 120 \\
+C \& D & x & 5 \\
+broken row & only two \\
+\bottomrule
+\end{tabular}
+\caption{Results.}\label{tab:a}
+\end{table}
+Missing ref \ref{tab:none} and cite \citep[see][p.~3]{known,unknown}.
+\todo[inline]{Fix the {nested} braces here
+on two lines}
+\bibliography{refs}
+\end{document}
