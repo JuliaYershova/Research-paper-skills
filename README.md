@@ -1,12 +1,16 @@
 # Research paper skills
 
-You should spend your time on the research, not on hunting for a stale number in Table 3 at midnight before a deadline. 🌱
+<p align="center"><b>Spend your time on the research, not on hunting for a stale number in Table 3 at midnight before a deadline.</b> 🌱</p>
 
-These skills help your AI agent review your paper like a careful co-author would: they check every number against your results, every claim against your code, every citation against the cited paper, and catch the small issues that are easy to miss. You stay in charge: nothing changes without your approval.
+> These skills help your AI agent review your paper like a careful co-author would. They check every number against your results, every claim against your code and every citation against the cited paper, and they catch the small issues that are easy to miss. **You stay in charge: nothing changes without your approval.**
 
-Before anything is changed, you see the proposed fix as a marked-up PDF, with added text in green and removed text in red (a made-up example):
+## See every change before it happens
 
-![A proposed fix shown as a marked-up PDF: added text in green, deleted text in red](skills/paper-audit/docs/example-diff.png)
+Proposed fixes are shown as a marked-up PDF: **green** is added, **red** is removed. *(Made-up example.)*
+
+<p align="center">
+  <img src="skills/paper-audit/docs/example-diff.png" width="720" alt="A proposed fix shown as a marked-up PDF: added text in green, deleted text in red">
+</p>
 
 ## Skills
 
